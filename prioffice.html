@@ -1,0 +1,24 @@
+!<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Principal office</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/markers.min.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/markers.min.js"></script>
+</head>
+<body>
+	<div class="panorama-360-view" id= "div-panorama">
+	</div>
+	<script>
+		var container = document.getElementById("div-panorama")
+
+		var photo = new PhotoSphereViewer.Viewer({
+			panorama: "parking.jpg",
+			conatiner:container,
+			time_min : 3000, 
+		})
+	</script>
+</body>
+</html>

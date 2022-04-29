@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Roboto:wght@500&display=swap');
+
+:root {
+ 	--clr-primary: #f1f1f1;
+ 	--clr-secondary:  ;
+ 	--clr-room: #1b1b1b;
+ 	--clr-bg: #080808;
+ 	--clr-hover: #151515;
+ 	--clr-icon : #ea0d63;
+ 	--clr-room-font: #ffff;
+ 	--ff-main: 'Roboto', sans-serif;
+}
+h1, h2, h3 body{
+	margin: 0;
+
+}
+
+body {
+	font-weight: 200;
+	font-size: 1.3125rem;
+	line-height: 1.4;
+	font-family: var(--ff-main);
+	background-color: var(--clr-bg);
+}
+#panoram-360-view{
+	width: 100vw;
+	height: 100vh;
+}
+
+.bg-light{
+	background-color: var(--clr-room);
+	
+}
+
+.ff-light{
+	color:var(--clr-room-font) ;
+}
+
+.search-box,.room{
+padding: 1rem 1rem;
+margin-bottom: 0.3rem;	
+}
+
+.content-center{
+	margin-inline: auto;
+	width: min(96%, 70.5rem);
+}
+.content-text{
+	padding: 1rem 0;
+
+}
+
+.classlogo{
+	writing-mode: vertical-rl;
+	margin-inline: auto;
+
+}
+
+.room-text {
+	padding: 0 1rem;
+}
+.room-des{
+	font-size: 0.8rem;
+	color: var(--clr-primary);
+}
+
+.room{
+	display: flex;
+	flex-direction: row;
+	border-radius: 0.4rem;
+	box-sizing: border-box;
+}
+ .search-box {
+
+ }
+
+.search{
+	width: 100%;
+	border-radius: 0.4rem;
+	box-sizing: border-box;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	background-color: var(--clr-hover);
+	color: var(--clr-primary);
+	border-color: transparent;
+}
